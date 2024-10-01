@@ -1,11 +1,9 @@
-body
-{
+body{
   background: yellow;
 }
 div{
   background-color: blue;
 }
-span
-{
+span{
   background-color: gray;
 }
