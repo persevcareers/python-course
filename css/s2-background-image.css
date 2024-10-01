@@ -1,0 +1,17 @@
+
+
+body{
+  background: url();
+  background-repeat: no-repeat;
+}
+div{
+  background-color: blue;
+  border-color: black;
+  border-style: dashed;
+  border-width: 10px;
+  /*border-width: thick;*/
+}
+span
+{
+  background-color: gray;
+}
