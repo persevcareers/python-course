@@ -21,6 +21,7 @@ body{
 #singleselect{
  color: yellow;
 }
-*{     /* this wont override id's but will override classes*/
-  color: blue;
+h2 + ul
+{
+border: 5px dotted blue;
 }
