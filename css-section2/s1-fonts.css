@@ -18,3 +18,15 @@ p{
 body{
   font-size: 10px
 }
+===================================
+h1{
+font-family: fantasy;
+}
+
+p{
+  font-family: monospace;
+}
+
+body{
+  font-size: 3.0  em;
+}
