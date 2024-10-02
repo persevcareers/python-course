@@ -25,3 +25,7 @@ h2 + ul
 {
 border: 5px dotted blue;
 }
+li a[href="www.facebook.com"]{
+  color: yellow
+  border: 5px dotted blue;
+}
