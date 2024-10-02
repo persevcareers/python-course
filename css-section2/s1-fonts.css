@@ -33,3 +33,21 @@ body{
 #secondp{
 font-size: 5.0em;
 }
+============================================
+h1{
+font-family: fantasy;
+text-align: center;
+}
+
+p{
+  font-family: monospace;
+}
+
+body{
+  font-size: 1.0  em;
+}
+#secondp{
+font-size: 5.0em;
+}
+
+================
