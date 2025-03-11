@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS</title>
+  <script src="script.js"></script>
+</head>
+<body>
+ <h1> Security Center India </h1>
+</body>
+</html>
+==========================================================
+var ageconst = null;
+var firstname = null;
+var passcode = null;
+
+ageconst = prompt("Enter your Age");
+firstname = prompt("Enter your firstname");
+passcode = prompt("Enter your passcode");
+alert("All Done! We got who are you !")
+
+if (ageconst == "donno") {
+  ageconst = true;
+} else {
+  ageconst = false;
+}
+
+if (firstname == "ain") {
+  firstname = true;
+}
+
+else {
+  firstname = false;
+}
+
+if (passcode == "859") {
+  passcode = true;
+}
+else {
+  passcode = false;
+}
+
+if (ageconst && firstname && passcode)
+ {
+    console.log("Welcome to NIA");
+} 
+else 
+{
+  console.log("Rejected");
+}
