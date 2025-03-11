@@ -1,5 +1,6 @@
-var i = 2;
-while (i <= 5) {
-  console.log(i);  // This will print the value of i
-  i++;            // Increment i by 1 after each loop
+var i = 0;
+
+while( i <= 5) {
+  console.log("Value of i is " +i);
+  i = i+1;
 }
