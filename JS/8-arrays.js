@@ -11,6 +11,6 @@ console.log(stream2)
 console.log(stream3)
 
 
-branches = ["CSE,IT,MECH"]
+branches = ["CSE","IT","MECH"]
 
 console.log("Different Branches available are " +branches)
