@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title>SSP</title>
+</head>
+<body>
+    <h1 id="one">SSP - HOVER ON ME</h1>
+    <h2 id="two">Click Here - Education is the most powerful weapon which you can use to change the world.</h2>
+    <h3 id="three">Double Click -  This is a Paragraph</h3>
+</body>
+<script src = "script.js"></script>
+</html>
+------------------------------
+#script.js
+var hover = document.querySelector("#one")
+var click = document.querySelector("#two")
+var doubleclick = document.querySelector("#three")
+hover.addEventListener("mouseover",function() {
+    hover.textContent = "Hovered and text changed" ;
+    hover.style.color = "blue";
+})
+hover.addEventListener("mouseout",function() {
+    hover.textContent = "SSP - HOVER ON ME";
+    hover.style.color = "black";
+})
