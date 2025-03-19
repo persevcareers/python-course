@@ -46,3 +46,9 @@ $("input").eq(0).keypress(function() {
     console.log("Key Pressed");
     $("h1").toggleClass("blueclass");
 })
+=================================================
+//Use this and check the log of event
+$("input").eq(0).keypress(function(event) {
+    console.log(event)
+    $("h1").toggleClass("blueclass");
+})
