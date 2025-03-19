@@ -35,8 +35,14 @@ crossorigin="anonymous"></script>
 </html>
 =================================================
 
-//script.js
+//script.js for printing output to console whenever key pressed
 
 $("input").eq(0).keypress(function() {
     console.log("Key Pressed");
+})
+==============================================
+//script.js for changing color of h1 whenever ley pressed
+$("input").eq(0).keypress(function() {
+    console.log("Key Pressed");
+    $("h1").toggleClass("blueclass");
 })
